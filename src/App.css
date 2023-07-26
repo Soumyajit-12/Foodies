@@ -91,13 +91,11 @@ h1{
 
 .CartBox{
   width: 30vw;
-  height: 50vh;
-  max-height: 90vh;
+  height:max-content;
   margin: 20px auto;
   background-color: rgb(203, 156, 73);
   padding: 20px;
   border: 3px solid;
-  overflow: scroll;
   position: relative;
 }
 .row{
@@ -172,7 +170,6 @@ h1{
   font-size: large;
 }
 .checkout{
-  position: absolute;
   bottom: 0px;
   left: 10%;
   right: 10%;

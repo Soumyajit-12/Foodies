@@ -10,7 +10,7 @@ export default function Cart(props) {
   return (
     <div className='CartBox'>
         <h2>Cart Items</h2>
-        <div className='row'>
+        <div className='row cartItems'>
             {cartItems.length === 0 && <div>Cart is Empty</div>}
             {cartItems.map((item) => (
                 <div key={item.id} className='Cart-Item'>
